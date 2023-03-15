@@ -1,0 +1,187 @@
+@import url('https://fonts.cdnfonts.com/css/canavar');
+
+
+.bg-img {
+    background-image: url('../images/soccer-ball-background.avif');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 110%;
+   
+    background-repeat: no-repeat;
+}
+
+
+
+.container-fluid {
+    min-height: 100vh;
+    min-width: 100%; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+  
+}
+
+.vs-page-bg-img {
+    background-image: url('../images/field-background.avif');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.donut-background {
+    background-image: url("../images/homer-background.webp");
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.peter-background {
+    background: url("../images/peter-background.jpeg");
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sports-font {
+    font-family: 'CANAVAR', sans-serif;
+    color: rgba(255,255,255, 1);
+}
+
+
+.raleWay-font {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.background-orange {
+    background: rgba(240, 55, 8, 0.8) 
+    
+}
+
+
+.background-orange-light {
+    background: rgba(240, 55, 8, 0.8);
+    color: white;
+}
+
+.background-white {
+    background: white;
+}
+
+
+.tutorial {
+    border: 5px solid white;
+    color: white;
+  
+    background: rgba(240, 55, 8, 0.8);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;  
+}
+
+.sectionFoodDrink {
+    border: 5px solid white;
+    color: white;
+    background: rgba(240, 55, 8, 0.8);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+.sectionTeam {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin: 10px;
+    text-align: center;
+    height: 200%;
+}
+
+.background-with-border {
+    border: 5px solid white;
+    color: white;
+    background: rgba(240, 55, 8, 0.8);
+}
+
+.donutButton {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.barsButton {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.playAgainButton {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.start-button {
+    padding-bottom: 2.25rem;
+}
+
+.modal-card-head {
+    background-color: #49bce3;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.modal-card-body {
+    background-color: #fec30f;
+}
+
+.modal-card-foot {
+    background-color: #56062c;
+}
+
+
+
+.modal-background {
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url("../images/modal-background.avif");
+
+}
+
+
+
+header {
+    border: 5px solid white;
+    margin-bottom: 17%;
+
+}
+
+.section-intro {
+ 
+    margin-top: 15vh;
+}
+
+.dropdown {
+    border: 2px solid brown;
+    margin: 2%;
+}
+
+.sectionIntro {
+  
+}
+
+
+
+.displayNone {
+    display: none;
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+.border-white {
+    border: 2px solid white;
+}

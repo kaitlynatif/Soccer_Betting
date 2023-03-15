@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soccer Betting Game</title>
+    <link rel="mystyles" href="assets/css/mystyles.scss">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.cdnfonts.com/css/canavar" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <section class="field-bg bg-img">
+
+        <section class="container-fluid">
+          
+
+            <section class="sectionIntro">
+                <header>
+                    <h1
+                        class="background-orange sports-font is-size-1-desktop is-size-4-mobile has-text-centered has-text-left-desktop-only">
+                        Fat Either Way Betting Game</h1>
+                </header>
+
+                <section class="tutorial column is-half is-offset-one-quarter mb-5 mt-6">
+                    <p>How To Play</p>
+                    <br>
+                    <p>1- Accept that no matter what happens after you play this game you will be less healthy.</p>
+                    <p>2- Enter your zip code so we can find some places for you to celebrate with refined sugar or by
+                        drowning your sorrows based on your result.</p>
+                    <p>3- Smash that start button to play and follow the onscreen instructions as you progress.</p>
+
+                </section>
+
+                <section class="section-intro column is-offset-one-quarter is-half is-full-mobile mb-6">
+                    <input
+                        class="mb-3 zipcode-input column is-half is-offset-one-quarter is-half-mobile is-offset-one-quarter-mobile has-text-centered"
+                        maxlength="5" placeholder="Enter your zip code">
+                    <button
+                        class="start-button button is-normal is-primary column is-half is-half-mobile is-offset-one-quarter is-offset-one-quarter-mobile">Start
+                        game!</button>
+                </section>
+            </section>
+
+            <section class="sectionMenu">
+                <section class="section-leagueSelect">
+                    <div class="modal league-modal">
+                        <div class="modal-background"></div>
+                        <div class="modal-card">
+                            <div class="modal-card-head is-size-5-mobile">
+                                <p class="modal-card-title is-size-5-mobile">Choose your preferred league</p>
+                                <button class="delete" aria-label="close"></button>
+                            </div>
+                            <section class="modal-card-body">
+                                <select class="league-input column is-three-quarters-mobile ">
+                                    <option value="" disabled selected>Select a league...</option>
+                                    <option value="39">England Premier League (2022-23)</option>
+                                    <option value="140">Spanish La Liga (2022-23)</option>
+                                    <option value="78">German Bundesliga (2022-23)</option>
+                                    <option value="2">UEFA Champions League (2022-23)</option>
+                                    <option value="262">Mexico (2022-23)</option>
+                                </select>
+                            </section>
+                            <footer class="modal-card-foot">
+                                <button class="button is-success $button-color leagueInputButton">Continue</button>
+                            </footer>
+                        </div>
+                    </div>
+                </section>
+            </section>
+
+
+        
+            <section class="sectionTeam vs-page-bg-img">
+            </section>
+
+            <section class="sectionFoodDrink displayNone playAgainButton">
+            </section>
+
+        </section>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="./assets/scripts/script.js"></script>
+
+</body>
+
+</html>
